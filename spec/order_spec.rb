@@ -11,5 +11,7 @@ describe Order do
         test_order_2.load_menu(menu)
         expect(test_order.view_menu[0]).to include "Calamari"
     end
+
+    
     
 end
