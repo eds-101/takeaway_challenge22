@@ -1,3 +1,0 @@
-describe Takeaway do
-    
-end
