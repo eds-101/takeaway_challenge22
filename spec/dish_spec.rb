@@ -9,5 +9,10 @@ describe Dish do
         melon = Dish.new("Melon")
         expect(melon.name).to eq("Melon")
     end
+
+    it "has an associated price" do
+        lasagne = Dish.new("Lasagne", 8.99)
+        expect(lasagne.price).to eq(8.99)
+    end
     
 end
