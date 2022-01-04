@@ -18,7 +18,7 @@ class Order
             name, price = line.chomp.split(',')
             dish = Dish.new(name, price.to_i)
             @menu.push(dish)
-          end
+        end
     end
 
 
