@@ -8,10 +8,10 @@ describe Order do
 
     it 'can load a menu of dish items' do
         test_order_2 = Order.new
-        test_order_2.load_menu(menu)
-        expect(test_order.view_menu[0]).to include "Calamari"
+        test_order_2.load_menu("menu")
+        expect(test_order_2.view_menu[0]).to output(/Dish: Calamari, Price: £5/).to_stdout
     end
 
-    
+
     
 end
